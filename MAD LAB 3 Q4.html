@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        Bread= window.prompt("Enter the number of Breads:")
+        function sandwitch(Bread)
+        {
+            Sandwitch = Bread/2;
+            console.log("Total no of sandwich");
+            console.log(Sandwitch);
+
+        }
+        sandwitch(Bread);
+        
+     Cheese = window.prompt("Enter the number of Cheese:")
+    Bread= window.prompt("Enter the number of Breads:")
+    function Cheese_sandwitch(Bread, Cheese)
+    {
+        var count = 0;
+        while(Cheese > 0 && Bread >= 2)
+        {
+            count = count + 1;
+            Cheese = Cheese - 1;
+            Bread = Bread - 2;
+        }
+        console.log("Total no of cheese sandwich");
+        console.log(count);
+    }
+    Cheese_sandwitch(Bread, Cheese);
+
+    </script>
+
+</body>
+</html>
